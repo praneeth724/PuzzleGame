@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Puzzle Game</title>
+    <style>
+      body {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150vh;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .btn {
+        background-color: red;
+        width: 12rem;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 1rem;
+        margin-top: 1rem;
+      }
+
+      h2 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+      }
+
+      .con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+      p {
+        background-color: plum;
+        width: 20rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 1rem;
+      }
+
+      img {
+        width: 20rem;
+        height: auto;
+        margin-top: 1rem;
+        border-radius: 1rem;
+      }
+
+      video {
+        width: 100%;
+        max-width: 40rem;
+        height: auto;
+        margin-top: 2rem;
+        border-radius: 1rem;
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      h4 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+      <p>
+        <span>Instructions</span><br /><br />
+        Welcome to the Number Puzzle Game! Your goal is to rearrange the numbers
+        in ascending order by sliding the tiles. Click on a number next to the
+        empty space to slide it into the vacant slot. Try to solve the puzzle
+        using as few moves as possible. Good luck!
+      </p>
+      <h4>Win Screenshot</h4>
+      <img src="win.webp" alt="Win Screenshot" />
+    </div>
+
+    <video controls>
+      <source src="1112.mp4" type="video/mp4" />
+      <source src="1112.mp4" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+    <a href="index2.html">
+      <button class="btn">Play the Game</button>
+    </a>
+    <h2>Game Design by Kavindu Praneeth</h2>
+  </body>
+</html>
